@@ -4,79 +4,132 @@
 
 # Tema da Aula
 
-Turma Online 19 - Todas em Tech  | Back-end | Semana 4 | 2022 | Professora X
+Turma Online 19 - Todas em Tech  | Back-end | Semana 3 | 2022 | Professora Giu
 
-### Instruções
+## Instruções
+
 Antes de começar, vamos organizar nosso setup.
-* Fork esse repositório 
+
+* Fork esse repositório
 * Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
 * Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* [Add outras intrucoes caso necessario]
 
-### Resumo
+## Resumo
+
 O que veremos na aula de hoje?
-* [Tema1](#tema1)
-* [Tema2](#tema2)
-* [Tema3](#tema3)
+
+* Arrays
+* Objetos
+* Loops / Iteração
 
 ## Conteúdo
-### Tema1 
-1. [Tópico 1](#topico1)
-2. [Tópico 2](#topico2)
-### Tema2 
-1. [Tópico 3](#topico3)
-   * [Subtópico 1](#subtopico1)
-   * [Subtópico 2](#subtopico2)
-   
-### Tema3
-1. [Tópico 4](#topico4)
 
-### Tema1 
+### Arrays
 
-#### Topico1
+Array significa matriz em inglês, as vezes você também pode ver um array ser chamado de vetor ou até lista.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices. Nunc ante massa, dictum eget justo eget, feugiat tincidunt metus.
+Arrays são declaradas usando []
 
- #### Topico2
-  - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  - Donec erat mauris, laoreet in tortor vel
-  - Nunc ante massa, dictum eget justo eget, feugiat tincidunt.
+```js
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit.
+const arr = ["item 1", "item 2"]
 
-### Tema2
-#### Topico3
-* [Subtópico 1](#subtopico1)
-* [Subtópico 2](#subtopico2)
-<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
-<br>
+```
 
-##### Subtopico1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
+Cada item da array tem um índice (sua posição), começando de zero, no exemplo acima o item um tem item zero(0) e o item dois, índice 1;
 
-##### Subtopico2
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
+Para pegar um determinado item de uma array basta selecionar sua posição.
 
-### Tema3
-#### Topico4
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices.
+```js
 
-***
-### Exercícios 
-* [Exercicio para sala](/exercicios/para-sala/)
-* [Exercicio para casa](/exercicios/para-casa/)
+console.log(arr[1]); // irá imprimir 'item 2'
 
-### Material da aula 
+```
 
-### Links Úteis
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
+O javascript nos provê com muitos métodos para manipulação dessas arrays. Veja mais em:
 
+* [exemplos](https://www.treinaweb.com.br/blog/javascript-metodos-de-arrays-que-voce-precisa-conhecer)
+* [manual mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-<p align="center">
-Desenvolvido com :purple_heart:  
-</p>
+### Objetos
 
+Um objeto em JavaScript tem propriedades associadas a ele. Uma propriedade de um objeto pode ser explicada como uma variável que é ligada ao objeto. Propriedades de objetos são basicamente as mesmas que variáveis normais em JavaScript, exceto pelo fato de estarem ligadas a objetos.
+
+O seja, é uma forma de agrupar variáveis de qualquer tipo, podendo ser outros objetos, arrays e até funções (que são chamados de métodos desse objeto);
+
+```js
+const pessoa = {
+  nome: "Fulana",
+  idade: 42,
+  genero: "feminino",
+  apresentar: function () { console.log(`Olá, me chamo ${this.pessoa}`)}
+}
+
+//podemos evocar o valor de uma propriedade usando a notação ponto
+console.log(pessoa.idade);
+
+// E usar seus métodos
+pessoa.apresentar();
+```
+
+Veja mais
+
+* [Básico sobre objetos](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/Basics)
+* [Trabalhando com objetos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects)
+
+### Loops / Iteração
+
+Existem várias formas diferentes de laços, mas eles essencialmente fazem a mesma coisa: repetir uma ação múltiplas vezes.
+
+O mais convencional é o loop For de C
+
+```js
+for (LET passo = 1; passo <= 5; passo++) {
+  // Executa 5 vezes, com os valores de passos de 1 a 5.
+  console.log(`Passei aqui ${passo} vezes `);
+}
+```
+
+Pode ser usado dentro de funções e até dentro de outros loops. Um dos usos mais recorrentes é iterar por arrays:
+
+```js
+const arrayExercicio = [
+  "banana",
+  "pera",
+  "uva",
+  "maça",
+  "figo",
+  "abacaxi",
+  "caviar"
+];
+
+for (LET passo = 0; passo < arrayExercicio.length; passo++) {
+  // Executa 5 vezes, com os valores de passos de 1 a 5.
+  console.log(`O item ${passo} é ${arrayExercicio[passo]}`);
+}
+```
+
+Ver mais:
+
+[Manual Mdn](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
+
+### Exercícios
+
+* [Exercício para casa](/exercicios/para-casa/)
+
+## Links Úteis
+
+* [Documentação Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+* [JEP: explorador com exemplos](https://jep.vercel.app/)
+
+## Links da prof
+
+* [Todos os Links](https://giuzambot.bio.link/)
+* [LinkedIn](https://www.linkedin.com/in/giuzambot/)
+* [GitHub](https://github.com/giuzambot)
+
+<center>
+
+Desenvolvido com :purple_heart:
+
+</center>
