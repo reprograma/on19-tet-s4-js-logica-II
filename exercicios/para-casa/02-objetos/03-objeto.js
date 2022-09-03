@@ -8,3 +8,8 @@ const pessoa = {
 
 
 // usando seu conhecimento em loops, imprima todos os apelidos da pessoa um por um
+
+Object.keys(pessoa.apelidos).forEach(function(apelidos){
+  console.log(apelidos + " - " + pessoa.apelidos[apelidos]);
+  
+ });

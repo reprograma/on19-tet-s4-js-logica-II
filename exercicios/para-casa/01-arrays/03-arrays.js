@@ -27,7 +27,7 @@ const arrayExercicio = [
 // usando includes, verifique se a array contém a palavra 'banana'
 
 
-// usando includes, verifique se a array contém a palavra 'figo'
+// usando includes, verifique se a array contém a palavra 'figo'  
 
 
 // usando includes, verifique se a array contém a palavra 'macarrão'

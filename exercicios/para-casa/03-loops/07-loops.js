@@ -9,3 +9,35 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+/*
+
+const mapear = arrayExercicio.map(
+  
+    (fruta, index) => {
+
+      const resultado =  `${index +1} - ${fruta} ` ;
+      return resultado;
+
+      
+}
+
+
+console.log(resultado);
+
+
+
+
+);
+
+*/
+
+
+const numerar = (fruta,index) => {
+  const mapear = `${index + 1 } - ${fruta}`;
+  return mapear;
+   
+}
+const loucura =arrayExercicio.map(numerar);
+
+console.log(loucura);

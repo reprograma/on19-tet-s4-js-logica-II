@@ -3,8 +3,28 @@ const pessoa = {
   idade: 41,
   altura: 1.74,
   temCNH: true,
-  apelidos: ["Fu", "Ful", "Lana"]
+  apelidos: ["Fu", "Ful", "Lana"],
+
 };
+
+
+function faixaEtaria (){
+pessoa.idade;
+
+if(idade <= 18 ){
+
+console.log("Olá sou uma pessoa jovem, tenho", idade, " anos");
+
+  } else if( idade < 19 && idade < 64) {
+    console.log("Olá sou uma pessoa adulta, tenho", idade, " anos");
+
+  }else ( idade >= 65)
+
+  console.log("Olá sou uma pessoa Idosa, tenho", idade," anos");
+
+}
+
+faixaEtaria ()
 
 
 // crie um método nesse objeto chamado faixaEtaria,
