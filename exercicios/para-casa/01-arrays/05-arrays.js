@@ -3,7 +3,8 @@
 const frase = "Eu sou uma frase com algumas palavras";
 
 // Usando slice, corte da frase a palavra 'frase'
-
+const cortando = frase.slice('frase')
+console.log(cortando)
 
 // Usando slice, corte da frase a palavra 'algumas'
 
