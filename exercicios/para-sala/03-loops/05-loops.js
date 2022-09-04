@@ -1,3 +1,4 @@
+
 /*
 const objetificador = () => {
 
@@ -58,10 +59,12 @@ objetificador()
 
 
 /*
-const objetificador = (props) => { //props recebe odas as entradas que serão trabalhados.
+const objetificador = (props) => { //props recebe todas as entradas que serão trabalhados.
     const resultado = props.map(() => { }) // a função precisa ter alguma utilidade. 
     return resultado
 }
 
 objetificador([])
 */
+
+
