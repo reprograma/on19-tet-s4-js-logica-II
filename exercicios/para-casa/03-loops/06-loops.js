@@ -8,3 +8,7 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+const primeirasMaiusculas = arrayExercicio.map(item => 
+  console.log(item[0].toUpperCase() + item.slice(1).toLowerCase()) 
+)

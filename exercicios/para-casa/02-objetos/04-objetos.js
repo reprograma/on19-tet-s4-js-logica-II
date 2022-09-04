@@ -1,10 +1,27 @@
+console.clear()
+
 const pessoa = {
   nome: "Fulana",
   idade: 41,
   altura: 1.74,
   temCNH: true,
-  apelidos: ["Fu", "Ful", "Lana"]
+  apelidos: ["Fu", "Ful", "Lana"],
+  faixaEtaria:  function () {   
+    if(this.idade <= 18) {
+      console.log('Olá! Eu sou uma pessoa jovem.')
+    } 
+if(this.idade <= 64) {
+   console.log('Olá! Eu sou uma pessoa adulta.')
+}
+  if(this.idade >= 65){
+    console.log('Olá! Eu sou uma pessoa idosa.')
+  }
+}
 };
+
+
+pessoa.idade = 77
+pessoa.faixaEtaria()
 
 
 // crie um método nesse objeto chamado faixaEtaria,

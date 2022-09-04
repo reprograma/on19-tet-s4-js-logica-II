@@ -16,7 +16,7 @@ const pessoa = {
         }
     },
     apresentar: function () {
-        console.log(`Olá, meu nome é ${this.nome} e tenho ${this.idade} anos. ,eu primeiro hobby é ${this.hobbies[0]}`)
+        console.log(`Olá, meu nome é ${this.nome} e tenho ${this.idade} anos. Meu primeiro hobby é ${this.hobbies[0]}`)
     },
     saudar: () => {
        // console.log(this.); <== não tem this na arrow function } }

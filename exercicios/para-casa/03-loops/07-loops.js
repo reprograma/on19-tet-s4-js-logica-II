@@ -9,3 +9,10 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+const numerarItens = (item, index) => {
+  const itemNumerado = `${index + 1} - ${item}`;
+  return itemNumerado;
+}
+const arrayExercicioNumerado = arrayExercicio.map(numerarItens);
+console.log(arrayExercicioNumerado)
