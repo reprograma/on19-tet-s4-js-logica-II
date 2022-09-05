@@ -9,3 +9,8 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+const addNum = (str) => {
+  return `${(arrayExercicio.indexOf(str) + 1)} - ${str}`
+}
+console.log(arrayExercicio.map(addNum))
