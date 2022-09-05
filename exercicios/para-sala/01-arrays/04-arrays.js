@@ -21,4 +21,3 @@ console.log("\nÍndice negativo", arrayCortada2);
 
 const arrayCortada3 = listaFrutas.slice(2, 4);
 console.log("\nposição parada", arrayCortada3);
-
