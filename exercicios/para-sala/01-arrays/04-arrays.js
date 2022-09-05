@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 console.clear()
     const listaFrutas = [
         "banana", 
@@ -24,6 +25,12 @@ console.clear()
 const frase = "Eu sou uma frase com algumas palavras"; // -> mudando para essa frase
 
 const strCortada = frase.slice(7); // -> slice vira FRASE.slice
+=======
+console.clear();
+const frase = "Eu sou uma frase com algumas palavras";
+
+const strCortada = frase.slice(7);
+>>>>>>> 92378f8ad91f93246f06241636365ec06194fcdb
 console.log("string", strCortada);
 
 const listaFrutas = [
@@ -43,5 +50,8 @@ console.log("\nÍndice negativo", arrayCortada2);
 
 const arrayCortada3 = listaFrutas.slice(2, 4);
 console.log("\nposição parada", arrayCortada3);
+<<<<<<< HEAD
 */
         
+=======
+>>>>>>> 92378f8ad91f93246f06241636365ec06194fcdb

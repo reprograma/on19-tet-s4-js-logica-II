@@ -7,6 +7,7 @@ console.log(indexEncontrado, frase[indexEncontrado]);
 
 // achar o índice de um item na array
 const listaFrutas = ["Banana", "Pera", "Maça", "Pera"];
+<<<<<<< HEAD
 const indexFruta = listaFrutas.indexOf("Peras");
 
 if (indexFruta > -1) {
@@ -25,6 +26,8 @@ console.log(indexEncontrado, frase[indexEncontrado]);
 
 // achar o índice de um item na array
 const listaFrutas = ["Banana", "Pera", "Maça", "Pera"];
+=======
+>>>>>>> 92378f8ad91f93246f06241636365ec06194fcdb
 const palavraBuscada = "Pera";
 const indexFruta = listaFrutas.indexOf(palavraBuscada);
 
