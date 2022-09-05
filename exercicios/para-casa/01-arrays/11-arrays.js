@@ -17,3 +17,5 @@ const arrayExercicio = [
 // remova o primeiro item da array usando shift
 
 // a array resultante deverá ser igual a inicial
+
+
