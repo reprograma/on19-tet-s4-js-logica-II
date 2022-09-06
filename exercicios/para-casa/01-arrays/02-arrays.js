@@ -15,7 +15,7 @@ const arrayExercicio = [
 // Imprima o terceiro item da array e a primeira letra maiúscula
 
 
-// Imprima o penúltimo item da array e a última letra minúscula
+// Imprima o penúltimo item da array e a última letra maiúscula
 
 
 // Imprima o item do meio da array e a primeira e a última letras maiúscula

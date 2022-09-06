@@ -8,7 +8,7 @@ const arrayExercicio = [
   "caviar"
 ];
 
-// inverta a ordem da array com reverse
+// inverta a ordem da array com .reverse()
 
 
 // coloque a array em ordem alfabética
