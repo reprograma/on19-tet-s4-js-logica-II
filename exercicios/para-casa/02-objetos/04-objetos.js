@@ -12,6 +12,18 @@ const pessoa = {
 // sendo jovem até exatamente 18 anos, adulta até exatamente 64 e idosa acima ou igual 65 anos
 // ex: Olá, sou uma pessoa jovem!
 
-
+pessoa.faixaEtaria = () => {
+  let faixa = 'idosa'
+  if (pessoa.idade < 19){
+    faixa = 'jovem'
+  }
+  else if (pessoa.idade < 65){
+    faixa = 'adulta'
+  }
+  console.log ('Essa pessoa é', faixa)
+}
 
 // altere a idade da pessoa do objeto para 77 anos e utilize o método que criou para imprimir sua faixa etária
+
+pessoa.idade = 77
+pessoa.faixaEtaria()
