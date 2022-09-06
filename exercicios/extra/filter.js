@@ -1,6 +1,7 @@
 const arrNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
 // Usando filter, imprima apenas os números acima de 10
+<<<<<<< HEAD
 const ac10 = arrNumeros.filter(item => item > 10);
 console.log(ac10);
 
@@ -11,6 +12,10 @@ console.log(ac10);
 const pares = arrNumeros.filter(item => item % 2 === 0);
 console.log(pares);
 
+=======
+
+// Usando filter, imprima apenas os números pares
+>>>>>>> 05483aebfe1fbdaf014164360e1dbfd87c9a217e
 
 const arrObjetos = [
   {
@@ -36,6 +41,7 @@ const arrObjetos = [
 ];
 
 // usando filter, imprima uma array só com os adultos
+<<<<<<< HEAD
 const adultos = arrObjetos.filter(arrObjetos => arrObjetos.idade > 18);
 console.log(adultos);
 
@@ -51,3 +57,8 @@ const InicialC = (arrObjetos) =>{
 
 
 
+=======
+
+// usando filter, imprima apenas as pessoas cuja letra inicial do nome seja C
+
+>>>>>>> 05483aebfe1fbdaf014164360e1dbfd87c9a217e
