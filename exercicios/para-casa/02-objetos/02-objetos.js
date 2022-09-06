@@ -7,5 +7,5 @@ const pessoa = {
   apresentar: function () { console.log(`Olá, meu nome é ${this.nome}`) }
 };
 
-
+pessoa.apresentar()
 // imprima Olá, meu nome é Fulana, usando o método do objeto

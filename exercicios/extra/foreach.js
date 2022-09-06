@@ -1,7 +1,9 @@
 const arrNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
 // Usando foreach multiplique cada item por 2 salvando numa nova array, imprima o resultado
-
+let arrNew = []
+arrNumeros.forEach(value => arrNew.push(value * 2))
+console.log(arrNew)
 const arrObjetos = [
   {
     nome: "Maria",
@@ -26,3 +28,5 @@ const arrObjetos = [
 ];
 
 //usando foreach adicione 1 a todas as idades
+arrObjetos.forEach(object => object['idade'] ++)
+console.log(arrObjetos)
