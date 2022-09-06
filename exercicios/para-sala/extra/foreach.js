@@ -31,3 +31,7 @@ const arrObjetos = [
 //adiciona 10 em todas as idades
 arrObjetos.forEach((item, i) => arrObjetos[i].idade = item.idade + 10);
 console.log(arrObjetos);
+<<<<<<< HEAD
+=======
+
+>>>>>>> e9ecd16a4420e5fa28739fdf33e77acf0f48cb1b
