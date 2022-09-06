@@ -8,3 +8,11 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+const numerar = (fruta,index) => {
+  const mapear = `${index + 1 } - ${fruta}`;
+  return mapear;
+   
+}
+const loucura =arrayExercicio.map(numerar)
+console.log(loucura[0].toLocaleUpperCase());

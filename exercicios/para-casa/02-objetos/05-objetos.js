@@ -7,3 +7,8 @@ const pessoa = {
 };
 
 // usando for in, imprima todas as propriedades e seus valores, um por um.
+
+for (var ok  in pessoa){
+  console.log(ok + " - " + pessoa[ok]);
+  
+}
