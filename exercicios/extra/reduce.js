@@ -32,7 +32,13 @@ const arrObjetos = [
 ];
 
 // Some todas as idades das pessoas do objeto acima
+const array = arrObjetos.reduce((Pvalor, Cvalor) => Pvalor
+ += Cvalor.idade, 0)
 
-
+ console.log(array);
 
 // Some todas as idades das pessoas menores de idade
+
+
+const array2 = arrObjetos.reduce((Pvalor, Cvalor) => Pvalor
+ += Cvalor.idade < 18)
