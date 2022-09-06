@@ -7,3 +7,7 @@ const pessoa = {
 };
 
 // usando for in, imprima todas as propriedades e seus valores, um por um.
+
+for(const perfilPessoa in pessoa){
+  console.log(perfilPessoa,":" ,pessoa[perfilPessoa]);
+}
