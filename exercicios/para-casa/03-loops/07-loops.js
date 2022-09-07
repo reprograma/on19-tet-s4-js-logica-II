@@ -7,5 +7,12 @@ const arrayExercicio = [
   "maça",
   "figo",
   "abacaxi",
-  "caviar"
-];
+  "caviar"];
+
+const numerar = arrayExercicio.map(
+  (fruta, i) => {
+    const resultado = `${i + 1} - ${fruta}`;
+    return resultado;
+  }
+);
+console.log(numerar)
