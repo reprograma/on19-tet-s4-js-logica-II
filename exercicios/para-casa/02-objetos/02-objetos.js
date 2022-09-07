@@ -7,7 +7,6 @@ const pessoa = {
 
 
 
-
 // imprima Olá, meu nome é Fulana, usando o método do objeto
 
 console.log(`Olá, meu nome é ${pessoa.nome})
