@@ -16,6 +16,12 @@ const pessoa = {
   },
   apresentar: function () {
     console.log(`Olá, meu nome é ${this.nome} e tenho ${this.idade} anos. E meu primeiro hobby é ${this.hobbies[0]}`);
+<<<<<<< HEAD
+=======
+  },
+  saudar: () => {
+    //console.log(this.); <== não tem this na arrow function
+>>>>>>> e9ecd16a4420e5fa28739fdf33e77acf0f48cb1b
   }
 }
 
@@ -35,3 +41,10 @@ pessoa.moto = {
 }
 
 console.log(pessoa);
+<<<<<<< HEAD
+=======
+
+pessoa.saudar()
+
+
+>>>>>>> e9ecd16a4420e5fa28739fdf33e77acf0f48cb1b

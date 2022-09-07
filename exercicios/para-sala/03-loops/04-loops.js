@@ -34,3 +34,7 @@ const proFront = usuarios.map(
 );
 
 console.log(proFront);
+<<<<<<< HEAD
+=======
+
+>>>>>>> e9ecd16a4420e5fa28739fdf33e77acf0f48cb1b
