@@ -2,9 +2,9 @@
   <img src="assets/kyubey (1).gif" alt="gif Kyubei" width="500">
 </h1>
 
-# Semana 4 - Lógica de Programação 3
+# Semana 3 - Lógica de Programação 2
 
-Turma Online 19 - Todas em Tech | Back-end | Semana 4 | 2022 | Professora Giu
+Turma Online 19 - Todas em Tech | Back-end | Semana 3 | 2022 | Professora Giu
 
 ### Exercícios Laura
 <h1 align="center">
