@@ -1,1 +1,1 @@
-// crie um execício que use o find
+//Crie um exercício que use o find

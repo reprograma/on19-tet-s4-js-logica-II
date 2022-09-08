@@ -31,10 +31,9 @@ const arrObjetos = [
 const pessoasFiltradas = arrObjetos.filter(pessoa => pessoa.idade < 18);
 
 // com função externa
-const filtrador = (item) => {
-  console.log(item, item.nome[item.nome.length - 1] === "a");
-  return item.nome[item.nome.length - 1] === "a"
+const filtrador = (pessoa) => {
+  return pessoa.nome[pessoa.nome.length - 1] === "a"
 }
 
-const filtroComFuncao = arrObjetos.filter(filtrador); // passou função como parametro para outra, é um callback
+const filtroComFuncao = arrObjetos.filter(filtrador);
 console.log(filtroComFuncao);

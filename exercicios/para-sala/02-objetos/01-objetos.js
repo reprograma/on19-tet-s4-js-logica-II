@@ -40,5 +40,3 @@ pessoa.moto = {
 console.log(pessoa);
 
 pessoa.saudar()
-
-
