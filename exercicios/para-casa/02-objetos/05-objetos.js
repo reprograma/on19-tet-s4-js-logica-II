@@ -1,9 +1,15 @@
 const pessoa = {
-  nome: "Fulana",
-  idade: 41,
-  altura: 1.74,
+  nome: "Aline",
+  idade: 36,
+  altura: 1.68,
   temCNH: true,
-  apelidos: ["Fu", "Ful", "Lana"]
+  apelidos: ["Line", "Li", "Lica"],
 };
 
 // usando for in, imprima todas as propriedades e seus valores, um por um.
+for (const key in pessoa) {
+  if (key === "nome") {
+    pessoa[key] = "Roberta"
+  }
+  console.log(key + ":" + pessoa[key]);
+}
