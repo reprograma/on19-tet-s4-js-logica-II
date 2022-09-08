@@ -13,6 +13,9 @@ const arrayExercicio = [
 ];
 
 // Imprima o terceiro item da array e a primeira letra maiúscula
+const trocada = arrayExercicio[2].replace('u', "U")
+console.log(trocada);
+
 
 
 // Imprima o penúltimo item da array e a última letra minúscula

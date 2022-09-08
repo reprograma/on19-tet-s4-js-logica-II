@@ -1,3 +1,4 @@
+console.clear ();
 // Imprima o que for pedido nos comentários
 
 const frase = "Eu sou uma frase com algumas palavras";
