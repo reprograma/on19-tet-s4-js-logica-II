@@ -8,3 +8,9 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+const mapeado = arrayExercicio
+    .map((palavra) => palavra [0].toLocaleUpperCase() + palavra.slice(1))
+    .join(" ");
+
+console.log("Mapeado: " + mapeado);
