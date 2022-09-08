@@ -19,8 +19,12 @@ console.log(trocada);
 
 
 
+
 // Imprima o penúltimo item da array e a última letra minúscula
 console.log(arrayExercicio[5])
+
+// Imprima o penúltimo item da array e a última letra maiúscula
+
 
 
 // Imprima o item do meio da array e a primeira e a última letras maiúscula

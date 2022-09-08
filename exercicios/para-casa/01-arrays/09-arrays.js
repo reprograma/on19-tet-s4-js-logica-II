@@ -10,9 +10,14 @@ const arrayExercicio = [
   "caviar"
 ];
 
+
 // inverta a ordem da array com reverse
 arrayExercicio.reverse();
 console.log(arrayExercicio);
+
+// inverta a ordem da array com .reverse()
+
+
 
 // coloque a array em ordem alfabética
 arrayExercicio.sort();
