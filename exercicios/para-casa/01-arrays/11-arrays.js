@@ -25,3 +25,4 @@ arrayExercicio.shift();
 console.log("Shift: ", arrayExercicio)
 
 // a array resultante deverá ser igual a inicial
+console.log(arrayExercicio)
