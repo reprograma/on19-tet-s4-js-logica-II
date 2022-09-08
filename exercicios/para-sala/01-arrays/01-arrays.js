@@ -1,28 +1,3 @@
-<<<<<<< HEAD
-//declarando uma array 
-
-const listaNumeros = [1,2,3,4,5,6,7];
-
-const listaTextos = ["Banana", "Pera", "Maça"];
-
-const listaMista = [55, "olá", true, undefined];
-
-const listaObjetos = [{ nome: "Giu", }, {idade: 34}];
-
-//Acessando itens da array 
-
-console.log(listaNumeros[3]);
-
-console.log(listaObjetos[0].nome);
-
-const temperos = [
-    ["Macarrao", "Sushi"],
-    ["Salsinha", "Sal"]
-];
-//para imprimir o item "sal"
-console.log(temperos[1][1]);
-
-=======
 console.clear();
 // declarando arrays
 const listaNumeros = [1, 2, 3, 4, 5];
@@ -48,4 +23,3 @@ console.log("listaMista", listaMista[2]);
 console.log("listaObjetos", listaObjetos[0].idade);
 
 console.log("listaArrays", listaArrays[0][0], listaArrays[1][0]);
->>>>>>> e9ecd16a4420e5fa28739fdf33e77acf0f48cb1b

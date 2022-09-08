@@ -8,3 +8,6 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+const modf1 =  arrayExercicio.map((letra, indice) => `${indice}`)
+console.log(modf1);
