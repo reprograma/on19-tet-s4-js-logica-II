@@ -5,7 +5,9 @@ const pessoa = {
   temCNH: true,
   apelidos: ["Fu", "Ful", "Lana"]
 };
-
+for (const propriedade in pessoa) {
+  console.log(`${propriedade}: ${pessoa[propriedade]}`);
+}
 
 // crie um método nesse objeto chamado faixaEtaria,
 // que irá imprimir se a pessoa é jovem, adulta ou idosa
@@ -15,3 +17,5 @@ const pessoa = {
 
 
 // altere a idade da pessoa do objeto para 77 anos e utilize o método que criou para imprimir sua faixa etária
+
+console.log(`Minha idade é ${pessoa.idade} anos.`);

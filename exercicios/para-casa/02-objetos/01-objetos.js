@@ -29,7 +29,7 @@ console.log(pessoa.apelidos[2]);
 
 // Troque o nome da pessoa e imprima, usando somente o objeto
 
-pessoa.nome = "Rob"
+pessoa.nome = "Fulana"
 console.log("Nome: ", pessoa.nome);
 
 // adicione uma noma propriedade chama gênero com o valor 'feminino' e imprima, usando somente o objeto
