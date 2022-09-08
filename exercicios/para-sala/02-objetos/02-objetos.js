@@ -2,13 +2,8 @@ console.clear();
 // Objetos
 
 const pessoa = {
-
-  nome: "Elvira",
-  idade: 44,
-
   nome: "Giu",
   idade: 42,
-
   temCNH: true,
   hobbies: ["Séries", "Games"],
   carro: {
@@ -21,12 +16,9 @@ const pessoa = {
   },
   apresentar: function () {
     console.log(`Olá, meu nome é ${this.nome} e tenho ${this.idade} anos. E meu primeiro hobby é ${this.hobbies[0]}`);
-
-
   },
   saudar: () => {
     //console.log(this.); <== não tem this na arrow function
-
   }
 }
 
@@ -47,9 +39,4 @@ pessoa.moto = {
 
 console.log(pessoa);
 
-
-
 pessoa.saudar()
-
-
-

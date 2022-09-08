@@ -15,7 +15,11 @@ if (frase.includes(palavraBuscada)) {
 
 // procurando algo na array
 console.log("\nBuscando em array");
+
+const listaTextos = ["Banana", "Pera", "Maça"];
+
 const listaTextos = ["Banana", "Pera", "Maça", "Pera"];
+
 
 const encontrouPalavraBuscada = listaTextos.includes("Pera");
 if (encontrouPalavraBuscada) {

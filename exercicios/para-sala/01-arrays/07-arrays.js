@@ -15,3 +15,6 @@ console.log("Sobrou: ", listaFrutas);
 listaFrutas.splice(2, 0, "Uva");
 console.log("Sobrou: ", listaFrutas);
 
+
+
+

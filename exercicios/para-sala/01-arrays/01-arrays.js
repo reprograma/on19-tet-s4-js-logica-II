@@ -6,7 +6,11 @@ const listaTextos = ["Banana", "Pera", "Maça"];
 
 const listaMista = [55, "Olá", true, undefined];
 
+
+const listaObjetos = [{ nome: "Elvira" }, { nome: "Bruno" }];
+
 const listaObjetos = [{ nome: "Giu", idade: 42 }, { nome: "Pereira" }];
+
 
 const listaArrays = [
   ["Macarrão", "Sushi"],
@@ -20,6 +24,10 @@ console.log("listaTextos", listaTextos[1]);
 
 console.log("listaMista", listaMista[2]);
 
+
+console.log("listaObjetos", listaObjetos[0].nome);
+
 console.log("listaObjetos", listaObjetos[0].idade);
+
 
 console.log("listaArrays", listaArrays[0][0], listaArrays[1][0]);

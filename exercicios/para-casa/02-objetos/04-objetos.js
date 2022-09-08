@@ -4,9 +4,10 @@ const pessoa = {
   altura: 1.74,
   temCNH: true,
   apelidos: ["Fu", "Ful", "Lana"]
-};
+     }
 
-
+  
+  
 // crie um método nesse objeto chamado faixaEtaria,
 // que irá imprimir se a pessoa é jovem, adulta ou idosa
 // sendo jovem até exatamente 18 anos, adulta até exatamente 64 e idosa acima ou igual 65 anos

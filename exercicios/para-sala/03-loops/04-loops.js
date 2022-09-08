@@ -1,3 +1,8 @@
+
+//caso real
+
+
+
 console.clear();
 const usuarios = [
   {
@@ -18,8 +23,12 @@ const usuarios = [
   {
     nome: "Fulana4",
     idade: 17,
+
+    cpf: 39445644675
+
     cpf: 39445644675,
     hashPassword: "asdasd"
+
   }
 ];
 
@@ -27,11 +36,19 @@ const proFront = usuarios.map(
   (pessoa) => {
     const sanitizado = {
       nome: pessoa.nome,
+
+      idade: pessoa.idade
+
       idade: pessoa.idade < 18 ? "Jovem" : "Adulto"
+
     };
     return sanitizado;
   }
 );
 
+
+console.log(usuarios, proFront);
+
 console.log(proFront);
+
 

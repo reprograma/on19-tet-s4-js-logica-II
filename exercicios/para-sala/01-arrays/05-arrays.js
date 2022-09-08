@@ -11,7 +11,11 @@ const pessoa = {
   nome: "Fulana",
   genero: "feminino"
 }
+
+const template = `Bem-vindo ${pessoa.nome}`;
+
 const template = `Bem-vindo ${pessoa.nome.toUpperCase()}`;
+
 let result;
 if (pessoa.genero === "feminino") {
   result = template.replace("Bem-vindo", "Bem-vinda");

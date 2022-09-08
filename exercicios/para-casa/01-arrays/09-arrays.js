@@ -1,3 +1,5 @@
+console.clear();
+
 const arrayExercicio = [
   "banana",
   "pera",
@@ -8,10 +10,21 @@ const arrayExercicio = [
   "caviar"
 ];
 
+
+// inverta a ordem da array com reverse
+arrayExercicio.reverse();
+console.log(arrayExercicio);
+
 // inverta a ordem da array com .reverse()
 
 
+
 // coloque a array em ordem alfabética
+arrayExercicio.sort();
+console.log(arrayExercicio);
 
 
 // coloque a array em ordem alfabética decrescente z -> a
+
+arrayExercicio.sort(function(a, b){return b-a});
+console.log(arrayExercicio);
