@@ -13,5 +13,4 @@ const pessoa = {
 // ex: Olá, sou uma pessoa jovem!
 
 
-
 // altere a idade da pessoa do objeto para 77 anos e utilize o método que criou para imprimir sua faixa etária

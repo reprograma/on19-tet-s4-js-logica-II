@@ -14,9 +14,9 @@ const listaArrays = [
 ];
 
 //Acessando itens da array
-console.log("listaNumeros", listaNumeros[4]);
+console.log("listaNumeros", listaNumeros[5);
 
-console.log("listaTextos", listaTextos[1]);
+console.log("listaTextos", listaTextos[0]);
 
 console.log("listaMista", listaMista[2]);
 

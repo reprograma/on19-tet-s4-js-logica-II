@@ -17,3 +17,14 @@ const arrayExercicio = ["Banana", "Pera", "Uva", "Maça", "Figo", "Abacaxi", "Ca
 
 
 // Imprima o item que não é uma fruta
+
+
+console.log("arrayExercicios", arrayExercicio[1]);
+
+console.log("arrayExercicios", arrayExercicio[6]);
+
+console.log("arrayExercicios", arrayExercicio[3]);
+
+console.log("Eu gosto mais de", arrayExercicio[0], "do que de", arrayExercicio[4]);
+
+console.log("arrayExercicios", arrayExercicio[6]);
