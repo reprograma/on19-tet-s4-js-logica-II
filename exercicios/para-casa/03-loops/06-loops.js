@@ -8,3 +8,5 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+  

@@ -5,6 +5,7 @@ const frase = "Eu sou uma frase com algumas palavras";
 // Usando slice, corte da frase a palavra 'frase'
 
 
+
 // Usando slice, corte da frase a palavra 'algumas'
 
 

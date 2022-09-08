@@ -9,3 +9,9 @@ const arrayExercicio = [
 ];
 
 // usando for of, imprima todos os item da array um por um
+
+const fruta = 0
+
+for (const fruta of arrayExercicio) {
+  console.log(fruta);
+}
