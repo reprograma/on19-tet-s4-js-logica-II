@@ -9,3 +9,14 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+
+//const name = "Sammy"
+const map = Array.prototype.map
+let cont = 0;
+const frutasNumeradas = map.call(arrayExercicio, frutas => {
+    cont++
+    return `${cont} - ${frutas}`
+})
+
+console.log(frutasNumeradas)

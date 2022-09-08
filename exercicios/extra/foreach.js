@@ -1,6 +1,16 @@
+
 const arrNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
 // Usando foreach multiplique cada item por 2 salvando numa nova array, imprima o resultado
+
+arrNumeros.forEach(multiplicacao)
+
+console.log(arrNumeros)
+
+function multiplicacao(item, index,arrNovoNumeros) {
+  arrNovoNumeros[index] = item * 2
+}
+
 
 const arrObjetos = [
   {
@@ -26,3 +36,9 @@ const arrObjetos = [
 ];
 
 //usando foreach adicione 1 a todas as idades
+
+arrObjetos.forEach(item => {
+ item.idade += 1
+});
+
+console.log(arrObjetos)
