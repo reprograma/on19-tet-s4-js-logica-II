@@ -9,3 +9,6 @@ const arrayExercicio = [
 ];
 
 // usando while, imprima todos os item da array um por um
+
+while (contador < arrayExercicio.length) {
+  contador++;}

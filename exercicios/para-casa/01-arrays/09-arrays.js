@@ -20,3 +20,6 @@ console.log(arrayExercicio);
 
 
 // coloque a array em ordem alfabética decrescente z -> a
+
+arrayExercicio.sort(function(a, b){return b-a});
+console.log(arrayExercicio);
