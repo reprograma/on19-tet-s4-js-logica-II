@@ -18,8 +18,7 @@ const usuarios = [
   {
     nome: "Fulana4",
     idade: 17,
-    cpf: 39445644675,
-    hashPassword: "asdasd"
+    cpf: 39445644675
   }
 ];
 
@@ -27,11 +26,10 @@ const proFront = usuarios.map(
   (pessoa) => {
     const sanitizado = {
       nome: pessoa.nome,
-      idade: pessoa.idade < 18 ? "Jovem" : "Adulto"
+      idade: pessoa.idade < 18 ? "Jovem" : "Adulto" // IF em códigos // condition ? expr1 : expr2 
     };
     return sanitizado;
   }
 );
 
-console.log(proFront);
-
+console.log(usuarios, proFront);
