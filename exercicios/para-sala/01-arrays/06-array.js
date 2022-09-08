@@ -1,6 +1,5 @@
-// usando split transforme a frase uma array e coloque cada palavra
-// com a primeira letra maiúscula, junte novamente numa frase, e imprima
-
+console.clear();
+//split - join
 const frase = "Eu sou uma frase com algumas palavras";
 
 const picadoArray = frase.split(" ");
@@ -14,4 +13,3 @@ console.log("\nMapeado: ", mapeado);
 
 const juntado = picadoArray.join(" ");
 console.log("\nJuntado: ", juntado);
-

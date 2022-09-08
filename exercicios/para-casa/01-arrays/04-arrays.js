@@ -2,14 +2,26 @@
 
 const frase = "Eu sou uma frase com algumas palavras";
 
-// usando indexOf, verifique o index de inicio da palavra 'sou'
+// Usando slice, corte da frase a palavra 'frase'
+
+const strCortada = frase.slice(0,11) + frase.slice(17, 37);
+console.log(strCortada);
 
 
-// usando indexOf, verifique o index de inicio da palavra 'algumas'
+// Usando slice, corte da frase a palavra 'algumas'
+
+const strCort = frase.slice(0,21) + frase.slice(29,37);
+console.log(strCort);
+
+// Usando slice, corte da frase as frase 'algumas palavras'
+
+const strCorte = frase.slice(0,21) + frase.slice(-1,-1);
+console.log(strCorte);
+
+// Usando slice, corte da frase a palavra 'frase'
 
 
-// usando indexOf, verifique o index de inicio da palavra 'cachorro'
-
+// Faça o mesmo dos exercícios acima usando substring
 
 const arrayExercicio = [
   "banana",
@@ -21,11 +33,18 @@ const arrayExercicio = [
   "caviar"
 ];
 
+// Usando slice, colete um pedaço da array do segundo item em diante
 
-// usando indexOf, verifique a posição da palavra 'banana'
+const arrayCort = arrayExercicio.slice(1);
+console.log(arrayCort);
 
+// Usando slice, colete um pedaço da array entre o terceiro item e o quinto item
 
-// usando indexOf, verifique a posição da palavra 'figo'
+const arrayCortado = arrayExercicio.slice(2,-3);
+console.log(arrayCortado);
 
+// Usando slice, colete um pedaço da array: os dois últimos itens
 
-// usando indexOf, verifique a posição da palavra 'macarrão'
+const arrayCortados = arrayExercicio.slice(-2);
+console.log(arrayCortados);
+
