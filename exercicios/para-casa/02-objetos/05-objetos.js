@@ -1,3 +1,4 @@
+console.clear()
 const pessoa = {
   nome: "Fulana",
   idade: 41,
@@ -7,3 +8,10 @@ const pessoa = {
 };
 
 // usando for in, imprima todas as propriedades e seus valores, um por um.
+for (const propriedades in pessoa) {
+  if (propriedades === "idade") {
+    pessoa[propriedades] = 41
+  }
+  console.log(propriedades + ":" + pessoa[propriedades]);
+}
+console.log(pessoa);

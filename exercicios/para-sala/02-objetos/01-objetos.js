@@ -40,8 +40,7 @@ pessoa.moto = {
 console.log(pessoa);
 
 pessoa.saudar()
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 92378f8ad91f93246f06241636365ec06194fcdb
+
+

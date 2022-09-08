@@ -45,4 +45,4 @@ function comparar(itemEsquerdo, itemDireito) {
 
 const ordenado = listaFrutas.sort(comparar);
 console.log(listaFrutas);
->>>>>>> 92378f8ad91f93246f06241636365ec06194fcdb
+
