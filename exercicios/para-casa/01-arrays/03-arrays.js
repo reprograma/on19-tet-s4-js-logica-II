@@ -2,17 +2,16 @@
 
 const frase = "Eu sou uma frase com algumas palavras";
 
-// usando includes, verifique se a frase contém a palavra 'sou'
+// usando indexOf, verifique o index de inicio da palavra 'sou'
 
+console.log(frase.indexOf("sou", 0));
 
-// usando includes, verifique se a frase contém a palavra 'algumas'
+// usando indexOf, verifique o index de inicio da palavra 'algumas'
 
+console.log(frase.indexOf("algumas", 0));
 
-// usando includes, verifique se a frase contém a palavra 'cachorro'
-
-
-// usando includes, verifique se a frase contém a palavra 'amanhã'
-
+// usando indexOf, verifique o index de inicio da palavra 'cachorro'
+console.log(frase.indexOf("cachorro", 0));
 
 const arrayExercicio = [
   "banana",
@@ -24,10 +23,15 @@ const arrayExercicio = [
   "caviar"
 ];
 
-// usando includes, verifique se a array contém a palavra 'banana'
 
+// usando indexOf, verifique a posição da palavra 'banana'
 
-// usando includes, verifique se a array contém a palavra 'figo'
+console.log(arrayExercicio.indexOf("banana"));
 
+// usando indexOf, verifique a posição da palavra 'figo'
 
-// usando includes, verifique se a array contém a palavra 'macarrão'
+console.log(arrayExercicio.indexOf("figo"));
+
+// usando indexOf, verifique a posição da palavra 'macarrão'
+
+console.log(arrayExercicio.indexOf("macarrão"));

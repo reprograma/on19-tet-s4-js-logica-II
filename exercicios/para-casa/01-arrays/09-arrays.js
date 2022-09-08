@@ -1,17 +1,9 @@
-const arrayExercicio = [
-  "banana",
-  "pera",
-  "uva",
-  "maça",
-  "figo",
-  "abacaxi",
-  "caviar"
-];
+const dia = 1;
+const mes = 2;
+const ano = 2027;
 
-// inverta a ordem da array com .reverse()
-
-
-// coloque a array em ordem alfabética
-
-
-// coloque a array em ordem alfabética decrescente z -> a
+// imprima 01/02/2027 usando as constantes acima e padStart para adicionar o zero em dia e mes
+ const dia1 = dia.toString().padStart(2,'0');
+ const mes1 = mes.toString().padStart(2,'0');
+ const ano1 = '2027'
+ console.log(dia1 +"/"+ mes1 +"/"+ 2027);
