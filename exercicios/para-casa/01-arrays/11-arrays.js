@@ -1,3 +1,5 @@
+console.clear();
+
 const arrayExercicio = [
   "banana",
   "pera",
@@ -8,7 +10,7 @@ const arrayExercicio = [
   "caviar"
 ];
 
-// adicione n array uma fruta usando push
+// adicione na array uma fruta usando push
 
 // remova o último item da array usando pop
 
