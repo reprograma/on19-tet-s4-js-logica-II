@@ -3,16 +3,20 @@
 const frase = "Eu sou uma frase com algumas palavras";
 
 // Usando slice, corte da frase a palavra 'frase'
-
+const cortada = frase.slice(0,11) + frase.slice(17,37); 
+console.log(cortada);
 
 // Usando slice, corte da frase a palavra 'algumas'
-
+const cortada1 = frase.slice(0,21) + frase.slice(29,37); 
+console.log(cortada1);
 
 // Usando slice, corte da frase as frase 'algumas palavras'
-
+const cortada2 = frase.slice(0,21) + frase.slice(-1,-1); 
+console.log(cortada2);
 
 // Usando slice, corte da frase a palavra 'frase'
-
+const cortada3 = frase.slice(0,11) + frase.slice (17,37);
+console.log(cortada3);
 
 // Faça o mesmo dos exercícios acima usando substring
 
@@ -27,9 +31,13 @@ const arrayExercicio = [
 ];
 
 // Usando slice, colete um pedaço da array do segundo item em diante
-
+const arrayCortada5 = arrayExercicio.slice(1);
+console.log(arrayCortada5);
 
 // Usando slice, colete um pedaço da array entre o terceiro item e o quinto item
-
+const arrayCortada6 = arrayExercicio.slice(2, -3);
+console.log(arrayCortada6);
 
 // Usando slice, colete um pedaço da array: os dois últimos itens
+const arrayCortada7 = arrayExercicio.slice(-2);
+console.log(arrayCortada7);
