@@ -8,3 +8,7 @@ const pessoa = {
 
 
 // usando seu conhecimento em loops, imprima todos os apelidos da pessoa um por um
+
+for (let index = 0; index < pessoa.apelidos.length; index ++){
+  console.log (pessoa.apelidos[index])
+}

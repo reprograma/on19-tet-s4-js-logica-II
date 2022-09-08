@@ -7,3 +7,8 @@ const pessoa = {
 };
 
 // usando for in, imprima todas as propriedades e seus valores, um por um.
+
+let temp;
+for (let key in pessoa){
+  console.log (key, ':', pessoa[key])
+}

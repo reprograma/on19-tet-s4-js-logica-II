@@ -8,3 +8,14 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+console.clear()
+
+const upperCase = (str) => {
+  let word = str[0].toLocaleUpperCase() + str.slice(1)
+  return word
+}
+
+const mapped = arrayExercicio.map(upperCase)
+
+console.log (mapped)

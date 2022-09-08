@@ -9,3 +9,16 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+console.clear()
+
+let pos = 1
+const counting = (fruit) => {
+  const treated = pos.toString() + '-' + fruit
+  pos++
+  return treated
+}
+
+const counted = arrayExercicio.map(counting)
+
+console.log (counted)
