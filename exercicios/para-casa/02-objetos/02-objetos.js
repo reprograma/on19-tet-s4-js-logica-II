@@ -12,4 +12,3 @@ const pessoa = {
 
 pessoa.apresentar();
 
-// imprima Olá, meu nome é Fulana, usando o método do objeto
