@@ -1,4 +1,9 @@
+console.clear();
+
 const arrNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+const sum = arrNumeros.reduce((current, previous) => current += previous); 
+console.log(sum);
 
 const arrObjetos = [
   {
@@ -22,3 +27,6 @@ const arrObjetos = [
     idade: 33
   }
 ];
+
+const objSum = arrObjetos.reduce((Pvalue, Cvalue) => Pvalue += Cvalue.idade, 0)
+console.log(objSum);

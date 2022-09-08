@@ -1,3 +1,5 @@
+console.clear();
+
 const pessoa = {
   nome: "Fulana",
   idade: 41,
@@ -8,3 +10,6 @@ const pessoa = {
 
 
 // usando seu conhecimento em loops, imprima todos os apelidos da pessoa um por um
+for (index = 0; index < 3; index++) {
+  console.log(pessoa.apelidos[index]);
+}

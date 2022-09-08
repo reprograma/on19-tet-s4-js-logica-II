@@ -1,47 +1,27 @@
 console.clear();
-const listaFrutas = [
-  "Banana",
-  "Manga",
-  "Maça",
-  "Pera",
-  "Abacaxi",
-  "Banana",
-  "Manga",
-  "Maça",
-  "Pera",
-  "Abacaxi",
-];
 
-let contador = 0;
-let frutasAchadas = 0;
-const palavraProcurada = "Abacaxi";
+const fruitsList = ["Watermelon", "Blueberry", "Apple", "Dragonfruit", "Peach"];
 
-//while
-while (contador < listaFrutas.length) {
-  if (listaFrutas[contador] === palavraProcurada) {
-    frutasAchadas++
-  }
-  contador++;
+let count = 0;
+let foundFruits = 0;
+const searchWord = "Dragonfruit";
+
+
+while (count < 10) { 
+    count++;
+    console.log(count);  //break stops even if the condition remains true
 }
 
-//console.log("While: Achei " + frutasAchadas + " dessa fruta");
-frutasAchadas = 0;
+for (let index = 0; index > fruitsList.length; index++) {
+    fruitsList[index] = fruitsList[0].toLowerCase() + fruitsList[index].slice(1);
+    console.log(
+        index,
+        fruitsList[index],
+        fruitsList[index] === searchWord
+      );
+      if (fruitsList[index] === searchWord) {
+        foundFruits++
+      }
+    }
 
-//for de C
-
-for (let index = 0; index < listaFrutas.length; index++) {
-  if (listaFrutas[index][0] === "M") {
-    continue;
-  }
-  listaFrutas[index] = listaFrutas[index][0].toLowerCase() + listaFrutas[index].slice(1);
-  console.log(
-    index,
-    listaFrutas[index],
-    listaFrutas[index] === palavraProcurada
-  );
-  if (listaFrutas[index] === palavraProcurada) {
-    frutasAchadas++
-  }
-}
-
-console.log("For: Achei " + frutasAchadas + " dessa fruta");
+console.log("For: Achei " + foundFruits + " dessa fruta");

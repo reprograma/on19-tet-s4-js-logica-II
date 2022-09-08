@@ -1,4 +1,10 @@
+console.clear();
+
 const arrNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+//Multiplied all items by 2, modifying original array
+arrNumeros.forEach((item, i) => arrNumeros[i] = item * 2)
+console.log(arrNumeros);
 
 const arrObjetos = [
   {
@@ -22,3 +28,7 @@ const arrObjetos = [
     idade: 33
   }
 ];
+
+//Added 10 to all ages
+arrObjetos.forEach((item, i) => arrObjetos[i].idade = item.idade + 10);
+console.log(arrObjetos);

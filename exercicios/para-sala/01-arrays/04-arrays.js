@@ -1,23 +1,18 @@
 console.clear();
-const frase = "Eu sou uma frase com algumas palavras";
 
-const strCortada = frase.slice(7);
-console.log("string", strCortada);
+const frase = "Crimes of the Future. Available now at MUBI";
+const sentenceSplit = frase.slice(14)
 
-const listaFrutas = [
-  "Banana",
-  "Manga",
-  "Maça",
-  "Pera",
-  "Abacaxi"
-];
+console.log("Starting position", frase.indexOf("Future")); //Shows the index (position of first character) of word
+console.log("\nstring", sentenceSplit);
 
-// Cortando arrays
-const arrayCortada = listaFrutas.slice(1);
-console.log("\nÍndice positivo", arrayCortada);
+const fruitsList = ["Watermelon", "Blueberry", "Apple", "Dragonfruit", "Peach"];
 
-const arrayCortada2 = listaFrutas.slice(-4);
-console.log("\nÍndice negativo", arrayCortada2);
+const cutArray = fruitsList.slice(2);
+console.log("\nSimple cut", fruitsList, cutArray);
 
-const arrayCortada3 = listaFrutas.slice(2, 4);
-console.log("\nposição parada", arrayCortada3);
+const cutArray2 = fruitsList.slice(-2); //Starts from the end, counting backwards
+console.log("\nNegative index", cutArray2)
+
+const cutArray3 = fruitsList.slice(1,2); //Starts at position 1 and stops before 2
+console.log("\nStop index", cutArray3);

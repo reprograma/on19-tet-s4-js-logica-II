@@ -1,25 +1,19 @@
-console.clear();
-// declarando arrays
-const listaNumeros = [1, 2, 3, 4, 5];
+const numbersList = [1, 2, 3, 4, 5];
+numbersList[800] = "hidden"
 
-const listaTextos = ["Banana", "Pera", "Maça"];
+const textList = ["Watermelon", "Blueberry", "Apple"];
 
-const listaMista = [55, "Olá", true, undefined];
+const mixedList = [13, "Hello", true, undefined];
 
-const listaObjetos = [{ nome: "Giu", idade: 42 }, { nome: "Pereira" }];
+const objectsList = [{nome: "Laura"}, {nome: "Rocha"}];
 
-const listaArrays = [
-  ["Macarrão", "Sushi"],
-  ["Salsinha", "Sal"]
+const arraysList = [
+    ["Sandman", "Morpheus"],
+    ["Black","Red"]
 ];
 
-//Acessando itens da array
-console.log("listaNumeros", listaNumeros[4]);
+console.log(mixedList[0]);
+console.log("numbersList", numbersList.length)
+console.log("objectsList", objectsList[0].nome);
 
-console.log("listaTextos", listaTextos[1]);
-
-console.log("listaMista", listaMista[2]);
-
-console.log("listaObjetos", listaObjetos[0].idade);
-
-console.log("listaArrays", listaArrays[0][0], listaArrays[1][0]);
+console.log("arraysList", arraysList[0][1], arraysList[1])

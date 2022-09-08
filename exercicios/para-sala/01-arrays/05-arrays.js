@@ -1,26 +1,25 @@
 console.clear();
-const frase = "Eu sou uma frase com algumas palavras";
 
-const trocado = frase.replace("algumas", "poucas");
-console.log(trocado);
+const frase = "Crimes of the Future. Available now at MUBI";
+ const swap = frase.replace("Available", "Showing");
 
-const trocado2 = frase.replace("uma frase", "um texto");
-console.log("\n" + trocado2);
+console.log(swap);
 
-const pessoa = {
-  nome: "Fulana",
-  genero: "feminino"
+const person = {
+    naming: "Fulana",
+    gender: "female"
 }
-const template = `Bem-vindo ${pessoa.nome.toUpperCase()}`;
+
+const template = `Bem-vindo ${person.naming}`;
 let result;
-if (pessoa.genero === "feminino") {
-  result = template.replace("Bem-vindo", "Bem-vinda");
+if (person.gender === "female") {
+    result = template.replace("Bem-vindo", "Bem-vinda");
 }
 console.log("\n", result);
 
-// Regex e all
-const trocado3 = frase.replace(/a/gi, "A");
-console.log("\n", trocado3);
+const swap2 = frase.replace(/a/gi, "A"); //Regex is the same as replaceAll but using a differet rule
+//Regex is regular expression, in this case /a/, meaning the letter a wherever it appears. gi is global and ignoreCase flags
+console.log("\n", swap2)
 
-const trocado4 = frase.replaceAll("a", "A");
-console.log("\n", trocado4);
+const swap3 = frase.replaceAll("a","A"); 
+console.log("\n", swap3)

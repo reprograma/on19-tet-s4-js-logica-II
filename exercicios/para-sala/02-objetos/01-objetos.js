@@ -1,44 +1,20 @@
 console.clear();
-// Objetos
 
-const pessoa = {
-  nome: "Giu",
-  idade: 42,
-  temCNH: true,
-  hobbies: ["Séries", "Games"],
-  carro: {
-    marca: "fiat",
-    nome: "Palio",
-    motor: {
-      potencia: 100,
-      combustivel: "gasolina"
+const person = {
+    name: "Laura",
+    age: 27,
+    canDrive: true,
+    hobbies: ["Gaming", "Reading", "Getting tattos"],
+    tattoos: {
+        leftArm: "statue",
+        rightArm: ["Venus", "Floral", "Tomie"],
+        rightLeg: "MCR", 
+    },
+    present: function () { 
+        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
     }
-  },
-  apresentar: function () {
-    console.log(`Olá, meu nome é ${this.nome} e tenho ${this.idade} anos. E meu primeiro hobby é ${this.hobbies[0]}`);
-  },
-  saudar: () => {
-    //console.log(this.); <== não tem this na arrow function
-  }
 }
 
-pessoa.apresentar();
+person.present();
 
-console.log("Nome: ", pessoa.nome);
-
-pessoa.hobbies.push("Codar");
-console.log("Hobby: ", pessoa.hobbies);
-
-pessoa.carro.motor.potencia += 50;
-console.log(pessoa.carro.motor);
-
-pessoa.moto = {
-  potencia: 80,
-  combustivel: "Álcool"
-}
-
-console.log(pessoa);
-
-pessoa.saudar()
-
-
+console.log("Name: ", person.name);

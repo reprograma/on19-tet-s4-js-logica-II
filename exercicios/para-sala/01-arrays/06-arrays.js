@@ -1,15 +1,24 @@
 console.clear();
-//split - join
-const frase = "Eu sou uma frase com algumas palavras";
 
-const picadoArray = frase.split(" ");
-console.log("Picado: ", picadoArray);
+const frase = "Crimes of the Future. Available now at MUBI";
 
-const mapeado = picadoArray
-  .map((palavra) => palavra[0].toLocaleUpperCase() + palavra.slice(1))
-  .join(" ");
+const splitArray = frase.split("");
+console.log(splitArray);
 
-console.log("\nMapeado: ", mapeado);
+const splitArray2 = frase.split(" ");
+console.log(splitArray2);
 
-const juntado = picadoArray.join(" ");
-console.log("\nJuntado: ", juntado);
+const splitArray3 = frase.split(" of ");
+console.log(splitArray3);
+
+const joinArray = splitArray2.join(" ");
+console.log(joinArray);
+
+const mapping = splitArray2.map(
+    (item) => item[0].toLocaleUpperCase() + item.slice(1) //"item" can be named anything, it's what's receiving the content that will be processed
+);
+
+const mapping2 = splitArray2
+.map((item) => item[0].toLocaleUpperCase() + item.slice(1))
+.join(" ");
+console.log(mapping2)

@@ -1,43 +1,32 @@
 console.clear();
-const listaFrutas = [
-  "Banana",
-  "Manga",
-  "Maça",
-  "Pera",
-  "Abacaxi",
-  "Banana",
-  "Manga",
-  "Maça",
-  "Pera",
-  "Abacaxi",
-];
 
-const favorita = "Pera";
-const nova = [];
+const fruitsList = ["Watermelon", "Blueberry", "Apple", "Dragonfruit", "Peach"];
+const favorite = "Dragonfruit"
 
-for (const fruta of listaFrutas) {
-  if (fruta === favorita) {
-    console.log("Eu gosto de " + fruta);
-  } else {
-    console.log("Eu não gosto de " + fruta);
-  }
+const mapping = 
+    (fruta, index) => {
+        const result = `${index + 1} - ${fruta}`;
+        return result;
+    }
 
-  if (fruta[0] === "M") {
-    nova.push(fruta)
-  }
+const mapped = fruitsList.map(mapping);
+console.log(mapped)
+
+for (const fruit of fruitsList) {
+    if (fruit === favorite) { 
+        console.log("I like " + fruit)
+    } else {
+        console.log("I don't like " + fruit)
+    }
 }
-console.log("Achei essas com letra M " + nova);
 
 const obj = {
-  nome: "Giu",
-  idade: 42,
-  planeta: "Conchgh"
+name: "Laura",
+age: 27,
+planet: "Venus",
 }
 
+//console.log(obj["name"])
 for (const key in obj) {
-  if (key === "idade") {
-    obj[key] = 77
-  }
-  console.log(key + ":" + obj[key]);
+    console.log(obj["name"]);
 }
-console.log(obj);

@@ -1,23 +1,23 @@
 console.clear();
-// inserindo e deletando itens
-// push(item) = adiciona ao final
-// pop() remove do final
-// unshift(item) adiciona no inicio
-// shift() remove do inicio
 
-const arrayExemplo = [];
+//push(item) = adds to the end
+//pop() remove from the end
+//unshift(item) adds to the beginning 
+//shift () removes from the beginning
 
-arrayExemplo.push("Opalão");
-console.log("Push: ", arrayExemplo);
+const arrayExample = [];
 
-arrayExemplo.push("Chevet");
-console.log("Push2: ", arrayExemplo);
+arrayExample.push("Samael");
+console.log("Push: ", arrayExample);
 
-arrayExemplo.pop();
-console.log("Pop: ", arrayExemplo);
+arrayExample.push("Morpheus");
+console.log("Push2: ", arrayExample);
 
-arrayExemplo.unshift("Chevet");
-console.log("Unshift: ", arrayExemplo);
+arrayExample.pop();
+console.log("Pop: ", arrayExample);
 
-arrayExemplo.shift();
-console.log("Shift: ", arrayExemplo);
+arrayExample.unshift("Morpheus");
+console.log("Unshift: ", arrayExample);
+
+arrayExample.shift();
+console.log("Shift: ", arrayExample)

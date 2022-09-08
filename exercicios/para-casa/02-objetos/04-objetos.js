@@ -1,3 +1,5 @@
+console.clear();
+
 const pessoa = {
   nome: "Fulana",
   idade: 41,

@@ -1,17 +1,15 @@
 console.clear();
-const frase = "Eu sou uma frase com algumas palavras";
 
-// achar o índice de algo
-const indexEncontrado = frase.indexOf("sou");
-console.log(indexEncontrado, frase[indexEncontrado]);
+const frase = "Crimes of the Future. Available now at MUBI";
 
-// achar o índice de um item na array
-const listaFrutas = ["Banana", "Pera", "Maça", "Pera"];
-const palavraBuscada = "Pera";
-const indexFruta = listaFrutas.indexOf(palavraBuscada);
+const findIndex = frase.indexOf("MUBI");
+console.log(findIndex, frase[findIndex]);
 
-if (indexFruta > -1) {
-  console.log(`Encontrei ${listaFrutas[indexFruta]} na posição ${indexFruta} `);
+const fruitsList = ["Watermelon", "Blueberry", "Apple"];
+const fruitIndex = fruitsList.indexOf("Blueberry");
+
+if (fruitIndex > -1) {
+    console.log(`I found ${fruitsList[fruitIndex]} in the position ${fruitIndex}.`);
 } else {
-  console.log("Não achei" + palavraBuscada);
+    console.log("Could not find")
 }

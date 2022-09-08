@@ -1,25 +1,8 @@
 console.clear();
-const frase = "Eu sou uma frase com algumas palavras";
 
-//acessando índice da string
-console.log(frase[3], frase[4], frase[5]);
+const frase = "Crimes of the Future. Available now at MUBI";
 
-// procurando se existe um parte da string
-console.log("Buscando em string");
-const palavraBuscada = "palavras"
-if (frase.includes(palavraBuscada)) {
-  console.log("Encontrei", frase.includes(palavraBuscada));
-} else {
-  console.log("Não encontrei", frase.includes(palavraBuscada));
-}
-
-// procurando algo na array
-console.log("\nBuscando em array");
-const listaTextos = ["Banana", "Pera", "Maça", "Pera"];
-
-const encontrouPalavraBuscada = listaTextos.includes("Pera");
-if (encontrouPalavraBuscada) {
-  console.log("Encontrei", encontrouPalavraBuscada);
-} else {
-  console.log("Não encontrei", encontrouPalavraBuscada);
-}
+console.log(frase[39], frase[40], frase[41], frase[42]);
+console.log(frase.length);
+console.log(frase.includes("future"));
+console.log(frase.includes("Future"));
