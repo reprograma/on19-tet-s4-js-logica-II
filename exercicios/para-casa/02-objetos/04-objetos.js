@@ -13,5 +13,14 @@ const pessoa = {
 // ex: Olá, sou uma pessoa jovem!
 
 
-
+if (pessoa.idade <= 18){
+  console.log(`${pessoa.nome} é jovem`);
+}else if (pessoa.idade <= 64) {
+  console.log(`${pessoa.nome} é adulta`);
+}else {
+  console.log(`${pessoa.nome} é idosa`);
+}
 // altere a idade da pessoa do objeto para 77 anos e utilize o método que criou para imprimir sua faixa etária
+ pessoa.idade = 77;
+
+ console.log(`${pessoa.nome} tem ${pessoa.idade} anos`);
