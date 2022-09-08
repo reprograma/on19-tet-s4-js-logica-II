@@ -9,3 +9,7 @@ const arrayExercicio = [
 ];
 
 // usando for de C, imprima todos os item da array um por um
+for (  let index= 0; index  < arrayExercicio.length; index++){
+  const elementosarray = arrayExercicio[index];
+  console.log(elementosarray)
+}

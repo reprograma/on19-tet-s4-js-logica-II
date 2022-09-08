@@ -17,8 +17,11 @@ if (pessoa.temCNH = true){
 }
 
 // imprima o último apelido da pessoa
-Console.log(pessoa.apelidos[2])
+Console.log(pessoa.apelido[2])
 
 // Troque o nome da pessoa e imprima, usando somente o objeto
+console.log(pessoa['nome'] = 'lari')
 
 // adicione uma noma propriedade chama gênero com o valor 'feminino' e imprima, usando somente o objeto
+pessoa['gênero'] = 'feminino'
+console.log(pessoa['gênero'])

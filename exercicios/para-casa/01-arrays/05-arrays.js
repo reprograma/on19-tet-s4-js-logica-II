@@ -3,15 +3,15 @@
 const frase = "Eu sou uma frase com algumas palavras";
 
 // Usando slice, corte da frase a palavra 'frase'
-const cortando1 = frase.slice(10, 4)
+const cortando1 = frase.slice(0, 21) + frase.slice(17, 37)
 console.log(cortando1)
 
 // Usando slice, corte da frase a palavra 'algumas'
-const cortando2 = frase.slice(5)
+const cortando2 = frase.slice(0, 21) + frase.slice(29, 37)
 console.log(cortando2)
 
 // Usando slice, corte da frase as frase 'algumas palavras'
-const cortando3 = frase.slice(5, 6)
+const cortando3 = frase.slice(0, 21) + frase.slice(29, 37)
 console.log(cortando3)
 
 // Usando slice, corte da frase a palavra 'frase'

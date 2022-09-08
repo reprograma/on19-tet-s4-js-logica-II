@@ -8,3 +8,5 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+const convertermasc = arrayExercicio.map( arrayExercicio => arrayExercicio[0].toUpperCase()+arrayExercicio.slice(1));
+console.log(convertermasc);
