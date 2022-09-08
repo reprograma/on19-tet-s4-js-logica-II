@@ -7,15 +7,21 @@ const pessoa = {
 };
 
 // imprima o nome da pessoa
-
+console.log("Nome: ", pessoa.nome);
 
 // imprima de maneira amigável se a pessoa possui CNH
-
+if (pessoa['temCNH']) {
+  console.log('Opa!! Você tem CNH')
+} else {
+  console.log('Você não tem CNH')
+}   
 
 // imprima o último apelido da pessoa
-
+console.log("apelidos: ", pessoa.apelidos[2])
 
 // Troque o nome da pessoa e imprima, usando somente o objeto
-
+console.log(pessoa['nome'] = 'Tayane')
 
 // adicione uma noma propriedade chama gênero com o valor 'feminino' e imprima, usando somente o objeto
+pessoa['gênero'] = 'feminino'
+console.log(pessoa['gênero'])
