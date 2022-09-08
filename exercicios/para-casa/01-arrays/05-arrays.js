@@ -1,15 +1,19 @@
 // Imprima o que for pedido nos comentários
+console.clear();
 
 const frase = "Eu sou uma frase com algumas palavras";
 
 // Usando slice, corte da frase a palavra 'frase'
-
+const strCortada = frase.slice(0,11) + frase.slice(17, 37);
+console.log(strCortada);
 
 // Usando slice, corte da frase a palavra 'algumas'
-
+const strCort = frase.slice(0,21) + frase.slice(29,37);
+console.log(strCort);
 
 // Usando slice, corte da frase as frase 'algumas palavras'
-
+const strCorte = frase.slice(0,21) + frase.slice(-1,-1);
+console.log(strCorte);
 
 // Usando slice, corte da frase a palavra 'frase'
 
@@ -27,9 +31,13 @@ const arrayExercicio = [
 ];
 
 // Usando slice, colete um pedaço da array do segundo item em diante
-
+const strFrutas = arrayExercicio.slice(1);
+console.log(strFrutas);
 
 // Usando slice, colete um pedaço da array entre o terceiro item e o quinto item
-
+const Frutas = arrayExercicio.slice(2, 5);
+console.log(Frutas);
 
 // Usando slice, colete um pedaço da array: os dois últimos itens
+const itens = arrayExercicio.slice(5, 7);
+console.log(itens);
