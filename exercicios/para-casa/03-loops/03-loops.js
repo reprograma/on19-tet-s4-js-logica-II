@@ -1,11 +1,16 @@
-const arrayExercicio = [
-  "banana",
-  "pera",
-  "uva",
-  "maça",
-  "figo",
-  "abacaxi",
-  "caviar"
+console.clear();
+
+const arrayExercise = [
+   "banana",
+   "pear",
+   "grape",
+   "apple",
+   "fig",
+   "pineapple",
+   "caviar"
 ];
 
-// usando for of, imprima todos os item da array um por um
+// using for of, print all array items one by one
+for (const i of arrayExercise) {
+   console.log(i);
+}

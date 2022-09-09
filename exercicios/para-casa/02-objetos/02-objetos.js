@@ -1,10 +1,14 @@
-const pessoa = {
-  nome: "Fulana",
-  idade: 41,
-  altura: 1.74,
-  temCNH: true,
-  apelidos: ["Fu", "Ful", "Lana"],
-  apresentar: function () { console.log(`Olá, meu nome é ${this.nome}`) }
+console.clear();
+
+const person = {
+   name: "Fulana",
+   age: 41,
+   height: 1.74,
+   temCNH: true,
+   nicknames: ["Fu", "Ful", "Lana"],
+   present: function () { console.log(`Hello, my name is ${this.name}`) }
 };
 
-// imprima Olá, meu nome é Fulana, usando o método do objeto
+
+// print Hello, my name is Fulana, using the object method
+person.present();

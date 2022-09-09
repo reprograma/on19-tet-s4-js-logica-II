@@ -1,3 +1,4 @@
-const frase = "  algo com espaços no começo e fim    ";
+const phrase = "  something with spaces at the beginning and end  ";
 
-// remova os espaços do início e do final usando trim
+// remove leading and trailing spaces using trim
+console.log(phrase.trim());

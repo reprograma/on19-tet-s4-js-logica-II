@@ -1,31 +1,37 @@
-// Imprima o que for pedido nos comentários
+// Print what is requested in the comments
 
-const frase = "Eu sou uma frase com algumas palavras";
+const sentence = "I am a sentence with a few words";
 
-// usando indexOf, verifique o index de inicio da palavra 'sou'
-
-
-// usando indexOf, verifique o index de inicio da palavra 'algumas'
+// using indexOf, check the index at the beginning of the word 'I am'
+console.log("\nThe word am starts in:", sentence.indexOf("I am"))
 
 
-// usando indexOf, verifique o index de inicio da palavra 'cachorro'
+// using indexOf, check the index at the beginning of the word 'some'
+console.log("\nThe word some starts in:", sentence.indexOf("some"))
 
 
-const arrayExercicio = [
+// using indexOf, check the index at the beginning of the word 'dog'
+console.log("\nThe word dog starts in:", sentence.indexOf("dog"))
+
+
+const arrayExercise = [
   "banana",
-  "pera",
-  "uva",
-  "maça",
-  "figo",
-  "abacaxi",
+  "pear",
+  "grape",
+  "apple",
+  "fig",
+  "pineapple",
   "caviar"
 ];
 
 
-// usando indexOf, verifique a posição da palavra 'banana'
+// using indexOf, check the position of the word 'banana'
+console.log("\nThe word banana starts at:", arrayExercise.indexOf("banana"))
 
 
-// usando indexOf, verifique a posição da palavra 'figo'
+// using indexOf, check the position of the word 'fig'
+console.log("\nThe word fig starts at:", arrayExercise.indexOf("fig"))
 
 
-// usando indexOf, verifique a posição da palavra 'macarrão'
+// using indexOf, check the position of the word 'noodles'
+console.log("\nThe word noodles starts at:", arrayExercise.indexOf("noodles"))

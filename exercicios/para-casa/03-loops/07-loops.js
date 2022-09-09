@@ -1,11 +1,21 @@
-// usando map, adicione um número sequencial para cada item, 
-//ex: 1 - banana, 2 - pera 3- uva ...
+// using map, add a sequential number for each item,
+//ex: 1 - banana, 2 - pear 3- grape ...
+console.clear();
+
 const arrayExercicio = [
-  "banana",
-  "pera",
-  "uva",
-  "maça",
-  "figo",
-  "abacaxi",
-  "caviar"
+   "banana",
+   "pear",
+   "grape",
+   "apple",
+   "fig",
+   "pineapple",
+   "caviar"
 ];
+
+const index = (fruit, i) => {
+   const result = `${i+1} - ${fruit}`;
+   return result;
+}
+
+const mapped = arrayExercicio.map(index);
+console.log(mapped);

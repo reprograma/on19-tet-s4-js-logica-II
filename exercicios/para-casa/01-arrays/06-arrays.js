@@ -1,17 +1,23 @@
-// Imprima o que pedem os comentários
+// Print what the comments ask for
 
-const frase = "Eu sou uma frase com algumas palavras";
+const sentence = "I am a sentence with a few words";
 
-// usando replace, troque 'sou' por 'não sou'
+// using replace, change 'am' to 'not'
+const swap = sentence.replace("I am", "I am not");
+console.log(swap)
 
+// using replace, replace 'some' with 'few'
+const swap2 = sentence.replace("some", "few");
+console.log("\n", swap2);
 
-// usando replace, troque 'algumas' por 'poucas'
+// using replace, change 'I' to 'Ieu mema'
+const swap3 = sentence.replace("I", "Ieu mema");
+console.log("\n", swap3);
 
+// using replaceAll replace all letters a with -
+const swap4 = sentence.replaceAll("a", "-");
+console.log("\n", swap4);
 
-// usando replace, troque 'Eu' por 'Ieu mema'
-
-
-// usando replaceAll trocar todas as letras a por -
-
-
-// use replace com regex para trocar todas as letras a por -
+// use replace with regex to replace all letters a with -
+const swap5 = sentence.replace(/a/gi, "-");
+console.log("\n", swap5);

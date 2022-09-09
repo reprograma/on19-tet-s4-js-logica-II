@@ -1,21 +1,30 @@
-const pessoa = {
-  nome: "Fulana",
-  idade: 41,
-  altura: 1.74,
-  temCNH: true,
-  apelidos: ["Fu", "Ful", "Lana"]
+console.clear();
+
+const person = {
+   name: "Fulana",
+   age: 41,
+   height: 1.74,
+   temCNH: true,
+   nicknames: ["Fu", "Ful", "Lana"]
 };
 
-// imprima o nome da pessoa
+// print the person's name
+console.log(person.name);
 
+// print in a friendly way if the person has a driver's license
+if (person.hasCNH === true) {
+   console.log(`${person.name} has a driver's license, being able to drive nationwide.`)
+} else {
+   console.log(`${person.name} doesn't have a driver's license, and so, is not allowed to drive!`)
+}
 
-// imprima de maneira amigável se a pessoa possui CNH
+// print the person's last nickname
+console.log(person.nicknames[2]);
 
+// Change the person's name and print, using only the object
+person.name = "Margareth";
+console.log(person.name);
 
-// imprima o último apelido da pessoa
-
-
-// Troque o nome da pessoa e imprima, usando somente o objeto
-
-
-// adicione uma noma propriedade chama gênero com o valor 'feminino' e imprima, usando somente o objeto
+// add a new property called gender with the value 'feminine' and print, using only the object
+person.gender = "Feminine";
+console.log(person.gender);

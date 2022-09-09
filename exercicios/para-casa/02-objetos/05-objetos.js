@@ -1,9 +1,14 @@
-const pessoa = {
-  nome: "Fulana",
-  idade: 41,
-  altura: 1.74,
-  temCNH: true,
-  apelidos: ["Fu", "Ful", "Lana"]
+console.clear();
+
+const person = {
+   name: "Fulana",
+   age: 41,
+   height: 1.74,
+   temCNH: true,
+   nicknames: ["Fu", "Ful", "Lana"]
 };
 
-// usando for in, imprima todas as propriedades e seus valores, um por um.
+//using for in, print all properties and their values one by one.
+for (const i in person) {
+   console.log([i], person[i]);
+}

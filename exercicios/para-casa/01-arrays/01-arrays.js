@@ -1,19 +1,27 @@
-// Imprima o que for pedido nos comentários
-// ex: imprima o primeiro item da array
+// Print what is requested in the comments
+// ex: print the first item in the array
 // console.log(arraysEx[0]);
 
-const arrayExercicio = ["Banana", "Pera", "Uva", "Maça", "Figo", "Abacaxi", "Caviar"];
+console.clear();
+const arrayExercise = ["Banana", "Pear", "Grape", "Apple", "Fig", "Pineapple", "Caviar"];
 
-// Imprima o segundo item da array
+// Print the second array item
+console.log("Second item: ", arrayExercise[1])
 
-
-// Imprima o último item da array
-
-
-// Imprima o item do meio da array
-
-
-// Imprima "Eu gosto mais de banana do que figo" usando a array no lugar das frutas
+// Print the last item in the array
+const sliceCut = arrayExercise.slice(-1)
+console.log("\nLast item: ", sliceCut[0])
 
 
-// Imprima o item que não é uma fruta
+// Print the middle item of the array
+const average = (arrayExercise.length) /2
+console.log("\nMiddle Item: ", arrayExercise[parseInt(average)])
+
+// Print "I like bananas more than figs" using array instead of fruit
+console.log(`\nI like ${arrayExercise[0]} more than ${arrayExercise[4]}.`)
+
+// Print the item that is not a fruit
+const indexArray = arrayExercise.indexOf("Caviar");
+
+if (indexArray > -1) {
+     console.log(`\n Item at position ${indexArray} is not a fruit, it is ${arrayExercise[indexArray]}.`);}

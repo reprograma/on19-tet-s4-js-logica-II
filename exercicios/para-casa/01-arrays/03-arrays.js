@@ -1,33 +1,39 @@
-// Imprima o que for pedido nos comentários
+// Print what is requested in the comments
 
-const frase = "Eu sou uma frase com algumas palavras";
+const sentence = "I am a sentence with a few words";
 
-// usando includes, verifique se a frase contém a palavra 'sou'
+// using includes, check if the sentence contains the word 'am'
+console.log("\nThis sentence includes the word 'am':", sentence.includes("am"))
 
-
-// usando includes, verifique se a frase contém a palavra 'algumas'
-
-
-// usando includes, verifique se a frase contém a palavra 'cachorro'
+// using includes, check if the sentence contains the word 'some'
+console.log("\nThis sentence includes the word 'some':", sentence.includes("some"))
 
 
-// usando includes, verifique se a frase contém a palavra 'amanhã'
+// using includes, check if the sentence contains the word 'dog'
+console.log("\nThis sentence includes the word 'dog':", sentence.includes("dog"))
 
 
-const arrayExercicio = [
+// using includes, check if the sentence contains the word 'tomorrow'
+console.log("\nThis sentence includes the word 'tomorrow':", sentence.includes("tomorrow"))
+
+
+const arrayExercise = [
   "banana",
-  "pera",
-  "uva",
-  "maça",
-  "figo",
-  "abacaxi",
+  "pear",
+  "grape",
+  "apple",
+  "fig",
+  "pineapple",
   "caviar"
 ];
 
-// usando includes, verifique se a array contém a palavra 'banana'
+// using includes, check that the array contains the word 'banana'
+console.log("\nThis array includes the word 'banana':", arrayExercise.includes("banana"))
 
 
-// usando includes, verifique se a array contém a palavra 'figo'
+// using includes, check if the array contains the word 'fig'
+console.log("\nThis array includes the word 'fig':", arrayExercise.includes("fig"))
 
 
-// usando includes, verifique se a array contém a palavra 'macarrão'
+// using includes, check that the array contains the word 'noodles'
+console.log("\nThis array includes the word 'noodles':", arrayExercise.includes("noodles"))
