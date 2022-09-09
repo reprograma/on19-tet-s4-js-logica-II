@@ -1,3 +1,5 @@
+console.clear();
+
 const arrayExercicio = [
   "banana",
   "pera",
