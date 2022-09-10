@@ -28,3 +28,4 @@ console.log(pessoa.nome);
 // adicione uma nova propriedade chama gênero com o valor 'feminino' e imprima, usando somente o objeto
 pessoa.genero = "feminino";
 console.log(pessoa.genero);
+console.table(pessoa);

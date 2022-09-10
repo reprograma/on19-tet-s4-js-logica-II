@@ -5,7 +5,16 @@ const pessoa = {
   idade: 41,
   altura: 1.74,
   temCNH: true,
-  apelidos: ["Fu", "Ful", "Lana"]
+  apelidos: ["Fu", "Ful", "Lana"],
+  faixaEtaria: function () {
+    if (this.idade <= 18) {
+      console.log("Esse usuário é jovem.");
+    } else if (this.idade > 18 && this.idade <= 64) {
+      console.log("Esse usuário é adulto.");
+    } else { 
+      console.log("Esse usuário é idoso.");
+    }
+  }
 };
 
 
@@ -13,17 +22,8 @@ const pessoa = {
 // que irá imprimir se a pessoa é jovem, adulta ou idosa
 // sendo jovem até exatamente 18 anos, adulta até exatamente 64 e idosa acima ou igual 65 anos
 // ex: Olá, sou uma pessoa jovem!
-const faixaEtaria = (users) => {
-  if (users.idade <= 18) {
-    console.log("Esse usuário é jovem.");
-  } else if (users.idade > 18 && users.idade <= 64) {
-    console.log("Esse usuário é adulto.");
-  } else { 
-    console.log("Esse usuário é idoso.");
-  }
-}
 
-faixaEtaria(pessoa);
+pessoa.faixaEtaria();
 
 // altere a idade da pessoa do objeto para 77 anos e utilize o método que criou para imprimir sua faixa etária
-faixaEtaria(pessoa.idade = 77);
+pessoa.faixaEtaria(pessoa.idade = 77);

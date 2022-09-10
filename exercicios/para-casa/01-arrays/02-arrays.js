@@ -37,4 +37,7 @@ const upperCase3 = arrayExercicio.map((item) => item.replace("maça", "MaçA"))
    const upperCase4 = arrayExercicio.map((item) => (item.replace("uva", "UVA") 
    .replace("figo", "fiGO")));
    console.log(`\nEu gosto mais de ${upperCase4[2]} do que ${upperCase4[4]}.`);
-  
+
+
+console.log(`\nEu gosto mais de ${arrayExercicio[2].toUpperCase()} do que
+${arrayExercicio[4][0]+arrayExercicio[4][1]+arrayExercicio[4][2].toUpperCase()+arrayExercicio[4][3].toUpperCase()}.`);
