@@ -8,3 +8,8 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+const arrayMap = arrayExercicio.map((item, index) => {
+  return `${item[0].toLocaleUpperCase() + item.slice(1, item.length).toLowerCase()}`
+ });
+console.log(arrayMap);
