@@ -8,7 +8,9 @@ const arrayExercicio = ["Banana", "Pera", "Uva", "Maça", "Figo", "Abacaxi", "Ca
 console.log(arrayExercicio[1])
 
 // Imprima o último item da array
-console.log(arrayExercicio[6])
+const ultimoElemento = arrayExercicio.length -1
+console.log(ultimoElemento)
+console.log(arrayExercicio[ultimoElemento])
 
 // Imprima o item do meio da array
 console.log(arrayExercicio[3])
