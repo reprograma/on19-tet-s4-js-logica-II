@@ -1,8 +1,8 @@
+console.clear();
 const arrNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
-// Usando filter, imprima apenas os números acima de 10
-
-// Usando filter, imprima apenas os números pares
+// x é cada item,  depois do => condição, true ele adiciona na array filtrada, false, ele ignora
+const arrFiltrada = arrNumeros.filter(x => x <= 14);
 
 const arrObjetos = [
   {
@@ -10,11 +10,11 @@ const arrObjetos = [
     idade: 21
   },
   {
-    nome: "Josefa",
+    nome: "Josefini",
     idade: 12
   },
   {
-    nome: "Clementina",
+    nome: "Clementine",
     idade: 55
   },
   {
@@ -27,7 +27,13 @@ const arrObjetos = [
   }
 ];
 
-// usando filter, imprima uma array só com os adultos
+// Filtrar todas as pessoas com idade acima de 21
+const pessoasFiltradas = arrObjetos.filter(pessoa => pessoa.idade < 18);
 
-// usando filter, imprima apenas as pessoas cuja letra inicial do nome seja C
+// com função externa
+const filtrador = (pessoa) => {
+  return pessoa.nome[pessoa.nome.length - 1] === "a"
+}
 
+const filtroComFuncao = arrObjetos.filter(filtrador);
+console.log(filtroComFuncao);

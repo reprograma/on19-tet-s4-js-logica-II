@@ -27,11 +27,10 @@ const proFront = usuarios.map(
   (pessoa) => {
     const sanitizado = {
       nome: pessoa.nome,
-      idade: pessoa.idade < 18 ? "Jovem" : "Adulto"
+      idade: pessoa.idade < 18 ? "Jovem" : "Adulto" // if tenario (olhar link no whats)
     };
     return sanitizado;
   }
 );
 
 console.log(proFront);
-

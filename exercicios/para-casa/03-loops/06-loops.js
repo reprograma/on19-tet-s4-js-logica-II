@@ -8,3 +8,8 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+const letraMaiusc = (str) => {
+  return str[0].toUpperCase() + str.slice(1)
+}
+console.log(arrayExercicio.map(letraMaiusc))

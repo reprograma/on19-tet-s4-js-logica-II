@@ -13,3 +13,4 @@ console.log("\nMapeado: ", mapeado);
 
 const juntado = picadoArray.join(" ");
 console.log("\nJuntado: ", juntado);
+
