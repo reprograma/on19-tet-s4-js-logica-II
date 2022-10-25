@@ -8,3 +8,5 @@ const pessoa = {
 };
 
 // imprima Olá, meu nome é Fulana, usando o método do objeto
+
+pessoa.apresentar();
