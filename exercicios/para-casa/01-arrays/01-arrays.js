@@ -9,7 +9,8 @@ console.log('Segundo item do array:', arrayExercicio[1]);
 
 
 // Imprima o último item da array
-console.log('Último item do array:', arrayExercicio[6]);
+let ultimoItem = arrayExercicio[arrayExercicio.length - 1]
+console.log('Último item do array:', ultimoItem);
 
 
 // Imprima o item do meio da array
