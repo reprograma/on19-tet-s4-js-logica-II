@@ -2,14 +2,12 @@
 
 const frase = "Eu sou uma frase com algumas palavras";
 
-let contadorA = []
+let contadorA = [];
 for (let index = 0; index < frase.length; index++) {
     
     if (frase[index] === "a") {
         let achouA = Array.of(frase[index]);
         contadorA += achouA
-        //console.log(contadorA.length, achouA);
         };    
 }
 console.log(`Tem ${contadorA.length} letras "a" na frase: ${frase}`);
-//console.log(contadorA);

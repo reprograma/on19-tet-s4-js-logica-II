@@ -23,4 +23,4 @@ console.log(arrayExercicio[5].replace("abacaxi", "abacaxI"));
 console.log(arrayExercicio[3].replace("maça", "MaçA"));
 
 // Imprima "Eu gosto mais de UVA do que fiGO" usando a array no lugar das frutas e observando as maiúsculas
-console.log(`Eu gosto mais de ${arrayExercicio[2].toUpperCase()} do que ${arrayExercicio[4]}`);
+console.log(`Eu gosto mais de ${arrayExercicio[2].toUpperCase()} do que ${arrayExercicio[4].replace("figo", "fiGO")}`);

@@ -15,5 +15,5 @@ console.log(frase.replace("Eu", "Ieu mema"));
 console.log(frase.replaceAll("a", "-"));
 
 // use replace com regex para trocar todas as letras a por -
-const fraseRegex = frase.replace(/a/g, "-")
+const fraseRegex = frase.replace(/a/g, "-");
 console.log(fraseRegex);

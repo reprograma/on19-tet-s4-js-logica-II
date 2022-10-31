@@ -1,6 +1,6 @@
 const pessoa = {
   nome: "Fulana",
-  idade: 77, // valor declarado e inicializado em 41
+  idade: 77, // valor declarado e inicializado em 41: Olá, sou uma pessoa adulta
   altura: 1.74,
   temCNH: true,
   apelidos: ["Fu", "Ful", "Lana"]
@@ -21,7 +21,7 @@ addMetodo = pessoa["faixaEtaria"] = function() {
 } else if (this.idade >= 65) {
   console.log(`Olá, sou uma pessoa idosa`);
 }};
-/*pessoa.faixaEtaria(); //executa o método faixaEtaria com valor original de pessoa.idade = 41 e imprime a frase: Olá, sou uma pessoa adulta*/
+
 
 // altere a idade da pessoa do objeto para 77 anos e utilize o método que criou para imprimir sua faixa etária
 pessoa.faixaEtaria(); // Após atualizar o valor de 41 para 77, conforme solicitado, executa o método faixaEtaria e imprime a frase: Olá, sou uma pessoa idosa

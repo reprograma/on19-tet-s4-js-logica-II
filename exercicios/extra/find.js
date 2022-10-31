@@ -1,29 +1,29 @@
 // crie um execício que use o find
 const arrayPoliglota = [
     {
-        id: "meName001",
+        id: "myName001",
         nome: "Elisângela",
         sobrenome: "Manuel",
         nomeArtistico: "Elis Brasil"
     },
     {
-        id: "meLang002",
+        id: "myLang002",
         linguaMaterna: "português",
         idiomas: ["inglês", "espanhol", "francês"]
     },
     {
-        id: "sheName001",
+        id: "herName001",
         nome: "Giuliana",
         sobrenome: "Zambotto",
         nomeArtistico: "Giu Zambot"
     },
     {
-        id: "sheLang002",
+        id: "herLang002",
         linguaMaterna: "português",
         idiomas: ["inglês", "italiano", "japonês"]
     },
 ]; 
 
-const idLang = "sheLang002"
-let findLang = arrayPoliglota.find(idioma => idioma.id === idLang)
+const idLang = "herLang002";
+let findLang = arrayPoliglota.find(idioma => idioma.id === idLang);
 console.log(findLang);

@@ -12,4 +12,4 @@ const arrayExercicio = [
 
 const ordenandoArrayMap = arrayExercicio.map((elemento, indice) => `${indice += 1} - ${elemento}`);
 
-console.log(ordenandoArrayMap)
+console.log(ordenandoArrayMap);

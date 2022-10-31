@@ -10,8 +10,10 @@ const pessoa = {
 console.log(pessoa.nome);
 
 // imprima de maneira amigável se a pessoa possui CNH
-msgConfirmacaoCnh = "Muito bom, você tem CNH" ; pessoa.temCNH == true;
+msgConfirmacaoCnh = "Muito bom, você tem CNH";
+if(pessoa.temCNH == true) {
 console.log(msgConfirmacaoCnh);
+};
 
 // imprima o último apelido da pessoa
 console.log(pessoa.apelidos[2]);
