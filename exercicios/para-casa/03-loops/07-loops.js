@@ -9,3 +9,7 @@ const arrayExercicio = [
   "abacaxi",
   "caviar"
 ];
+
+const ordenandoArrayMap = arrayExercicio.map((elemento, indice) => `${indice += 1} - ${elemento}`);
+
+console.log(ordenandoArrayMap);

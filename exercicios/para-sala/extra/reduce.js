@@ -26,6 +26,6 @@ const arrObjetos = [
   }
 ];
 
-const somaObj = arrObjetos.reduce((anterior, atual) => anterior += atual.idade, 100)
+const somaObj = arrObjetos.reduce((anterior, atual) => anterior += atual.idade, 0)
 
 console.log(somaObj);
